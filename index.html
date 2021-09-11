@@ -7,15 +7,109 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
+        <link rel="stylesheet" href="assets/css/styles.css" />
         <title>Bootstrap Project</title>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <!-- Navbar Section -->
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-faded p-md-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Image -->
+        <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="content text-center">
+                <h1 class="text-white">Matthew Chiancone</h1>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="container my-5 d-grid">
+            <div class="p-5 m-4 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
+                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
+                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
+                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
+                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
+                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
+                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
+                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
+                </p>
+            </div>
+            <div class="p-5 m-4 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
+                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
+                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
+                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
+                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
+                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
+                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
+                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
+                </p>
+            </div>
+            <div class="p-5 m-4 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
+                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
+                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
+                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
+                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
+                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
+                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
+                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
+                </p>
+            </div>
+        </div>
+
+        <footer></footer>
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Event listener for Scroll, Navbar change to bg-dark-->
+        <script>
+            var nav = document.querySelector("nav");
+
+            window.addEventListener("scroll", function () {
+                if (window.pageYOffset > 100) {
+                    nav.classList.add("bg-dark", "shadow");
+                } else {
+                    nav.classList.remove("bg-dark", "shadow");
+                }
+            });
+        </script>
     </body>
 </html>
