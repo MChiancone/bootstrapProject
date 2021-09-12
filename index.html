@@ -16,6 +16,16 @@
             href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
             rel="stylesheet"
         />
+        <!-- Montserrat font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- End of Fonts -->
+
+        <!-- Font Awesome Link -->
         <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
         <title>Bootstrap Project</title>
     </head>
@@ -38,17 +48,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item px-3">
-                        <a class="nav-link active" href="#">Work</a>
-                    </li>
-                    <li class="nav-item px-3">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#">Portfolio</a>
                     </li>
+                    <!-- <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li> -->
                     <li class="nav-item px-3">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
@@ -71,44 +81,125 @@
         </div>
 
         <!-- Main Content Area -->
-        <div class="container my-5 d-grid">
-            <div class="p-5 m-4 border">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
-                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
-                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
-                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
-                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
-                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
-                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
-                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
-                </p>
-            </div>
-            <div class="p-5 m-4 border">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
-                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
-                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
-                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
-                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
-                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
-                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
-                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
-                </p>
-            </div>
-            <div class="p-5 m-4 border">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
-                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
-                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
-                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
-                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
-                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
-                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
-                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
-                </p>
+
+        <div class="banner-image2 w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="content text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="jumbotron jumbotron-fluid">
+                                <div class="container">
+                                    <h1 class="display-4">About</h1>
+                                    <p class="lead">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quasi
+                                        dolore officia reiciendis alias. Non ea magni sed dolorum incidunt
+                                        ratione ut quo voluptatum, aliquam, earum animi culpa vero placeat!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <!-- Services Section -->
+        <div class="container-fluid">
+            <div class="container mt-5">
+                <h1 id="services" class="text-center">Services</h1>
+                <!--  image left  -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img
+                            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80"
+                            alt=""
+                            class="w-100 rounded"
+                        />
+                    </div>
+                    <!-- /.col-md-6 -->
+                    <div class="col-md-6">
+                        <div class="row align-items-center h-100">
+                            <div class="col">
+                                <h1 class="display-4 text-break">Front End Development</h1>
+                                <p class="lead">
+                                    We offer services to build interfaces that help you reach your goals.
+                                    <br /><br />
+                                    <a href="" class="btn btn-primary">Learn More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-md-6 -->
+                </div>
+                <!-- /.row -->
+
+                <!--  image right  -->
+                <div class="row">
+                    <div class="col-md-6 order-md-6">
+                        <img
+                            src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+                            alt=""
+                            class="w-100 rounded"
+                        />
+                    </div>
+                    <!-- /.col-md-6 -->
+                    <div class="col-md-6 order-md-1">
+                        <div class="row align-items-center h-100">
+                            <div class="col">
+                                <h1 class="display-4 text-break">Back-End Development</h1>
+                                <p class="lead">
+                                    Push and pull classes were added to change the order on desktop but still
+                                    have the image before the text on mobile. <br /><br />
+                                    <a href="" class="btn btn-primary">Learn More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-md-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+
+        <!-- Old Quotes Section -->
+        <!-- <div class="container my-5 d-grid">
+            <div class="p-5 m-4 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
+                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
+                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
+                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
+                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
+                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
+                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
+                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
+                </p>
+            </div>
+            <div class="p-5 m-4 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
+                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
+                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
+                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
+                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
+                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
+                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
+                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
+                </p>
+            </div>
+            <div class="p-5 m-4 border">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
+                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
+                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
+                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
+                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
+                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
+                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
+                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
+                </p>
+            </div>
+        </div> -->
 
         <footer></footer>
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
