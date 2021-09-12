@@ -1,20 +1,72 @@
+:root {
+    /* --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%); */
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    /* background: var(--clr-bg);
+    color: var(--clr-neon); */
+    font-family: "Balsamiq Sans", cursive;
+}
 .navbar {
     font-weight: 700;
+    letter-spacing: 0.1rem;
 }
-nav {
-    transition: 0.4s ease-in;
+.nav-link:hover {
+    font-size: 1.2rem;
+    transition: 0.7s ease;
 }
 
-/* .bgimg {
-    height: 600px;
-    background-image: url("https://images.unsplash.com/photo-1474983797926-3939622ca489?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-    background-attachment: fixed;
-    background-position: center top;
-    background-size: contain;
-} */
+nav {
+    /* Transition for bg of Navbar, when scrolling, to smooth out change in background. */
+    transition: 0.4s ease-in;
+}
+/* Social Media Icons */
+
+i.fab.fa-twitter-square {
+    font-size: 2rem;
+    color: #1da1f2;
+}
+i.fab.fa-facebook {
+    font-size: 2rem;
+    color: #3b5998;
+}
+i.fab:hover {
+    font-size: 2.2rem;
+    transition: 0.4s ease;
+}
+
 .banner-image {
-    background-image: url("https://images.unsplash.com/photo-1474983797926-3939622ca489?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("https://images.unsplash.com/photo-1551509134-2f9d4ec80a9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80");
     background-size: cover;
     background-attachment: fixed;
-    background-position: center top;
+    background-position: center;
 }
+
+/* Contact Button Effects */
+
+/* .btn {
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: 1;
+    background: none;
+    border: 0;
+}
+.btn-1 {
+    color: #386397;
+    outline: 2px solid #386397;
+    border: 2px solid #386397;
+    outline-offset: -2px;
+    transition: outline-offset 250ms ease;
+}
+.btn-1:hover,
+.btn-1:focus {
+    outline-offset: 2px;
+} */
