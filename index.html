@@ -10,17 +10,14 @@
         <link rel="stylesheet" href="assets/css/styles.css" />
 
         <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-            rel="stylesheet"
-        />
         <!-- Montserrat font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Karla Font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;0,700;1,400&display=swap"
             rel="stylesheet"
         />
         <!-- End of Fonts -->
@@ -48,25 +45,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about-section">About</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#services-section">Services</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio-section">Portfolio</a>
                     </li>
                     <!-- <li class="nav-item px-3">
                         <a class="nav-link" href="#">Blog</a>
                     </li> -->
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact-section">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="">
-                        <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
-                        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.github.com"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +79,10 @@
 
         <!-- Main Content Area -->
 
-        <div class="banner-image2 w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div
+            id="about-section"
+            class="banner-image2 w-100 vh-100 d-flex justify-content-center align-items-center"
+        >
             <div class="content text-center">
                 <div class="container">
                     <div class="row">
@@ -104,25 +104,26 @@
         </div>
 
         <!-- Services Section -->
-        <div class="container-fluid">
+        <div id="services-section" class="container-fluid">
             <div class="container mt-5">
-                <h1 id="services" class="text-center">Services</h1>
+                <h1 id="services-header" class="display-4 text-center mb-5">Services</h1>
                 <!--  image left  -->
                 <div class="row">
                     <div class="col-md-6">
                         <img
                             src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80"
                             alt=""
-                            class="w-100 rounded"
+                            class="img-respnsive w-100 rounded"
                         />
                     </div>
                     <!-- /.col-md-6 -->
                     <div class="col-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-4 text-break">Front End Development</h1>
+                                <h2 class="h1 display5 text-break">Web <br />Development</h2>
                                 <p class="lead">
-                                    We offer services to build interfaces that help you reach your goals.
+                                    We offer services to build responsive interfaces that help you reach your
+                                    goals.
                                     <br /><br />
                                     <a href="" class="btn btn-primary">Learn More</a>
                                 </p>
@@ -146,10 +147,11 @@
                     <div class="col-md-6 order-md-1">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-4 text-break">Back-End Development</h1>
+                                <h2 class="h1 display-5 text-break">Website <br />Re-Design</h2>
                                 <p class="lead">
-                                    Push and pull classes were added to change the order on desktop but still
-                                    have the image before the text on mobile. <br /><br />
+                                    Reconsidering your old website design? We offer services to update your
+                                    existing website or do a complete reset on your website.
+                                    <br /><br />
                                     <a href="" class="btn btn-primary">Learn More</a>
                                 </p>
                             </div>
@@ -161,47 +163,133 @@
             </div>
         </div>
 
-        <!-- Old Quotes Section -->
-        <!-- <div class="container my-5 d-grid">
-            <div class="p-5 m-4 border">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
-                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
-                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
-                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
-                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
-                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
-                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
-                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
-                </p>
+        <!-- Portfolio Gallery Section -->
+        <section class="section site-portfolio">
+            <div id="portfolio-section" class="container mt-5">
+                <div class="row mb-5">
+                    <div class="col-md-12">
+                        <h2 class="display-4 text-center">Portfolio</h2>
+                    </div>
+                </div>
+                <div id="portfolio-grid" class="row">
+                    <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap">
+                            <div class="work-info">
+                                <h3>Boxed Water</h3>
+                            </div>
+                            <img class="img-fluid" src="assets/img/img_1.jpg" />
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap">
+                            <div class="work-info">
+                                <h3>Build Indoor</h3>
+                            </div>
+                            <img class="img-fluid" src="assets/img/img_2.jpg" />
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap">
+                            <div class="work-info">
+                                <h3>Cocooil</h3>
+                            </div>
+                            <img class="img-fluid" src="assets/img/img_3.jpg" />
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap">
+                            <div class="work-info">
+                                <h3>Nike Shoe</h3>
+                            </div>
+                            <img class="img-fluid" src="assets/img/img_4.jpg" />
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap">
+                            <div class="work-info">
+                                <h3>Kitchen Sink</h3>
+                            </div>
+                            <img class="img-fluid" src="assets/img/img_5.jpg" />
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 col-lg-4 mb-4">
+                        <a href="#" class="item-wrap">
+                            <div class="work-info">
+                                <h3>Amazon</h3>
+                            </div>
+                            <img class="img-fluid" src="assets/img/img_6.jpg" />
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="p-5 m-4 border">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
-                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
-                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
-                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
-                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
-                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
-                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
-                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
-                </p>
+        </section>
+        <!-- End  Works Section -->
+        <!-- Contact Form Section -->
+        <section id="contact-section">
+            <div class="container">
+                <h2 class="display-4 text-center mt-5">Get in Contact</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleInputEmail1"
+                                    aria-describedby="emailHelp"
+                                />
+                                <!-- <small id="emailHelp" class="form-text text-muted"
+                                    >We'll never share your email with anyone else.</small
+                                > -->
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputFname">First Name</label>
+                                <input type="text" class="form-control" id="exampleInputFname" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">How can I help?</label>
+                            <textarea
+                                class="form-control"
+                                id="exampleFormControlTextarea1"
+                                rows="5"
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
             </div>
-            <div class="p-5 m-4 border">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore exercitationem
-                    nesciunt at eveniet nulla quaerat saepe, debitis quas, neque ullam magni quo velit error
-                    adipisci iste corrupti omnis sed ea sunt asperiores expedita dolor est. Quam asperiores
-                    harum facilis excepturi voluptatum molestias sapiente fuga itaque minima corrupti quaerat
-                    maiores totam deleniti aut nam soluta rem, ex saepe nulla consectetur nostrum esse!
-                    Asperiores quidem cum blanditiis nemo alias, error odio ipsum tempore unde animi libero
-                    harum vel earum sequi magnam molestias corrupti a rem eligendi aliquam in iste hic eos!
-                    Odio maxime, suscipit a excepturi quasi ipsam cumque commodi id?
-                </p>
+        </section>
+        <!-- End Contact Form Section -->
+        <footer>
+            <div class="container-fluid shadow">
+                <div class="row pt-4 pb-5">
+                    <div class="col-12 text-center">
+                        <a href="index.html"><i class="far fa-arrow-alt-circle-up fa-2x"></i></a>
+                    </div>
+                    <div class="col-4">
+                        <a class="navbar-brand text-primary font-weight-bolder" href="index.html">Logo</a>
+                    </div>
+                    <div class="col-8">
+                        <ul class="nav justify-content-end nav-footer">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div> -->
-
-        <footer></footer>
+        </footer>
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
